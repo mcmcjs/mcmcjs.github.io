@@ -1,0 +1,26 @@
+{
+  "runs": [
+    {
+      "key": "rats",
+      "file": "rats.json",
+      "model": "rats.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial"
+      },
+      "converged": true,
+      "rhat_max": 1.002803627929681,
+      "fitted_at": "2026-09-02T16:12:40.210Z",
+      "bytes": 1503955
+    }
+  ]
+}
