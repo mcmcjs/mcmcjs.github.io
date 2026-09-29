@@ -1,0 +1,1786 @@
+{
+  "runs": [
+    {
+      "key": "air",
+      "file": "air.json",
+      "model": "air.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "X": [
+            0,
+            0,
+            0
+          ],
+          "theta": [
+            0,
+            0
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0022839961419914,
+      "fitted_at": "2026-09-19T07:12:27.837Z",
+      "bytes": 274433
+    },
+    {
+      "key": "alligators",
+      "file": "alligators.json",
+      "model": "alligators.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "lambda": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0016517702625627,
+      "fitted_at": "2026-09-24T07:34:57.559Z",
+      "bytes": 1178574
+    },
+    {
+      "key": "asia",
+      "file": "asia.json",
+      "model": "asia.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "MH",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "bronchitis": 1,
+          "lung.cancer": 1,
+          "smoking": 1,
+          "tuberculosis": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 0.999058004752026,
+      "fitted_at": "2026-09-19T07:14:26.379Z",
+      "bytes": 42348
+    },
+    {
+      "key": "bayes_factors",
+      "file": "bayes_factors.json",
+      "model": "bayes_factors.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 0,
+          "beta": 0,
+          "delta": 0,
+          "gamma": 0,
+          "j": 2,
+          "tau": [
+            1,
+            1
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.000594479914381,
+      "fitted_at": "2026-09-19T19:43:16.095Z",
+      "bytes": 294876
+    },
+    {
+      "key": "beetles",
+      "file": "beetles.json",
+      "model": "beetles.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha.star": 0,
+          "beta": 0
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.00138765755192,
+      "fitted_at": "2026-09-19T07:15:26.070Z",
+      "bytes": 389116
+    },
+    {
+      "key": "biopsies",
+      "file": "biopsies.json",
+      "model": "biopsies.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "p": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0035772658296704,
+      "fitted_at": "2026-09-24T02:59:22.323Z",
+      "bytes": 1044858
+    },
+    {
+      "key": "blockers",
+      "file": "blockers.json",
+      "model": "blockers.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "d": 0,
+          "delta": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mu": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "tau": 1
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0026328965690305,
+      "fitted_at": "2026-09-24T07:01:56.229Z",
+      "bytes": 1095531
+    },
+    {
+      "key": "bones",
+      "file": "bones.json",
+      "model": "bones.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "theta": [
+            0.5,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            16,
+            18
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.001984303804856,
+      "fitted_at": "2026-09-19T03:24:39.551Z",
+      "bytes": 423600
+    },
+    {
+      "key": "circle",
+      "file": "circle.json",
+      "model": "circle.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0006661659630198,
+      "fitted_at": "2026-09-23T13:18:43.103Z",
+      "bytes": 202147
+    },
+    {
+      "key": "dogs",
+      "file": "dogs.json",
+      "model": "dogs.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": -1,
+          "beta": -1
+        }
+      },
+      "converged": true,
+      "rhat_max": 0.9999309096064759,
+      "fitted_at": "2026-09-19T03:29:15.127Z",
+      "bytes": 220133
+    },
+    {
+      "key": "dugongs",
+      "file": "dugongs.json",
+      "model": "dugongs.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 1,
+          "beta": 1,
+          "gamma": 0.9,
+          "tau": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0007555355997895,
+      "fitted_at": "2026-09-19T08:18:22.278Z",
+      "bytes": 280226
+    },
+    {
+      "key": "dyes",
+      "file": "dyes.json",
+      "model": "dyes.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "tau.btw": 1,
+          "tau.with": 1,
+          "theta": 1500
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0045351545528245,
+      "fitted_at": "2026-09-24T07:03:59.547Z",
+      "bytes": 384588
+    },
+    {
+      "key": "endo",
+      "file": "endo.json",
+      "model": "endo.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "beta": 2
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0001493917485373,
+      "fitted_at": "2026-09-23T20:27:43.404Z",
+      "bytes": 198042
+    },
+    {
+      "key": "epil",
+      "file": "epil.json",
+      "model": "epil.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "a0": 1,
+          "alpha.Age": 0,
+          "alpha.BT": 0,
+          "alpha.Base": 0,
+          "alpha.Trt": 0,
+          "alpha.V4": 0,
+          "tau.b": 1,
+          "tau.b1": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.00484725998592,
+      "fitted_at": "2026-09-23T11:33:01.601Z",
+      "bytes": 5880258
+    },
+    {
+      "key": "equiv",
+      "file": "equiv.json",
+      "model": "equiv.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "mu": 0,
+          "phi": 0,
+          "pi": 0,
+          "tau1": 1,
+          "tau2": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0019171686557615,
+      "fitted_at": "2026-09-19T04:32:00.216Z",
+      "bytes": 485153
+    },
+    {
+      "key": "eyes",
+      "file": "eyes.json",
+      "model": "eyes.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "tau": 0.1,
+          "theta": 5
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.000891073240303,
+      "fitted_at": "2026-09-23T21:42:16.227Z",
+      "bytes": 479295
+    },
+    {
+      "key": "hearts",
+      "file": "hearts.json",
+      "model": "hearts.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 0,
+          "delta": 0
+        }
+      },
+      "converged": true,
+      "rhat_max": 0.9998911073295611,
+      "fitted_at": "2026-09-24T07:37:27.449Z",
+      "bytes": 278870
+    },
+    {
+      "key": "hepatitis",
+      "file": "hepatitis.json",
+      "model": "hepatitis.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha0": 4,
+          "beta0": 0,
+          "gamma": 0,
+          "tau": 1,
+          "tau.alpha": 1,
+          "tau.beta": 1
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.078488381670484,
+      "fitted_at": "2026-09-24T08:20:35.662Z",
+      "bytes": 4310635
+    },
+    {
+      "key": "hepatitis_me",
+      "file": "hepatitis_me.json",
+      "model": "hepatitis_me.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha0": 4,
+          "beta0": 0,
+          "gamma": 0,
+          "psi": 1,
+          "tau": 1,
+          "tau.alpha": 1,
+          "tau.beta": 1,
+          "theta": 6
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0490737805055983,
+      "fitted_at": "2026-09-24T08:51:03.239Z",
+      "bytes": 6236105
+    },
+    {
+      "key": "hips3",
+      "file": "hips3.json",
+      "model": "hips3.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial"
+      },
+      "converged": true,
+      "rhat_max": 1.0028461835596079,
+      "fitted_at": "2026-09-19T21:53:26.857Z",
+      "bytes": 1267491
+    },
+    {
+      "key": "hips4",
+      "file": "hips4.json",
+      "model": "hips4.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "LHR": -0.35,
+          "base": [
+            -3.09,
+            -3.25,
+            -2.12
+          ],
+          "logHR": [
+            -0.63,
+            0.15,
+            -0.92
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0054422694881306,
+      "fitted_at": "2026-09-19T22:00:48.296Z",
+      "bytes": 6389536
+    },
+    {
+      "key": "hollow_square",
+      "file": "hollow_square.json",
+      "model": "hollow_square.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "x": 0.75,
+          "y": 0.75
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.000431310011164,
+      "fitted_at": "2026-09-23T13:54:10.377Z",
+      "bytes": 203022
+    },
+    {
+      "key": "jaws",
+      "file": "jaws.json",
+      "model": "jaws.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "beta0": 40,
+          "beta1": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0046489208242202,
+      "fitted_at": "2026-09-23T12:02:47.247Z",
+      "bytes": 524299
+    },
+    {
+      "key": "kidney",
+      "file": "kidney.json",
+      "model": "kidney.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 0,
+          "beta.age": 0,
+          "beta.sex": 0,
+          "r": 1,
+          "tau": 0.3
+        }
+      },
+      "converged": false,
+      "rhat_max": 2.8618041310292868,
+      "fitted_at": "2026-09-24T07:05:50.705Z",
+      "bytes": 1074852
+    },
+    {
+      "key": "leuk",
+      "file": "leuk.json",
+      "model": "leuk.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "beta": 0,
+          "dL0": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0014891902146419,
+      "fitted_at": "2026-09-23T11:38:05.499Z",
+      "bytes": 504810
+    },
+    {
+      "key": "leukfr",
+      "file": "leukfr.json",
+      "model": "leukfr.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "beta": 0,
+          "dL0": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "tau": 1
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0038717094977643,
+      "fitted_at": "2026-09-24T07:23:06.150Z",
+      "bytes": 921017
+    },
+    {
+      "key": "lsat",
+      "file": "lsat.json",
+      "model": "lsat.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "beta": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0055450037936269,
+      "fitted_at": "2026-09-23T11:41:22.223Z",
+      "bytes": 19112477
+    },
+    {
+      "key": "magnesium",
+      "file": "magnesium.json",
+      "model": "magnesium.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "mu": [
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5,
+            -0.5
+          ]
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0102422661626977,
+      "fitted_at": "2026-09-24T07:27:12.255Z",
+      "bytes": 2301169
+    },
+    {
+      "key": "mice",
+      "file": "mice.json",
+      "model": "mice.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "beta": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "r": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0018213061357175,
+      "fitted_at": "2026-09-19T05:38:51.567Z",
+      "bytes": 283398
+    },
+    {
+      "key": "orange_trees",
+      "file": "orange_trees.json",
+      "model": "orange_trees.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "mu": [
+            5,
+            2,
+            -6
+          ],
+          "tau": [
+            20,
+            20,
+            20
+          ],
+          "tauC": 20,
+          "theta": [
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ]
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0013484103096764,
+      "fitted_at": "2026-09-23T12:11:26.991Z",
+      "bytes": 668624
+    },
+    {
+      "key": "orange_trees_multivariate",
+      "file": "orange_trees_multivariate.json",
+      "model": "orange_trees_multivariate.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "mu": [
+            5,
+            2,
+            -6
+          ],
+          "tau": [
+            [
+              0.1,
+              0,
+              0
+            ],
+            [
+              0,
+              0.1,
+              0
+            ],
+            [
+              0,
+              0,
+              0.1
+            ]
+          ],
+          "tauC": 20,
+          "theta": [
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ],
+            [
+              5,
+              2,
+              -6
+            ]
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.001737247943,
+      "fitted_at": "2026-09-23T12:13:30.086Z",
+      "bytes": 788208
+    },
+    {
+      "key": "oxford",
+      "file": "oxford.json",
+      "model": "oxford.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 0,
+          "b": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "beta1": 0,
+          "beta2": 0,
+          "mu": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "tau": 1
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0064860578808872,
+      "fitted_at": "2026-09-24T07:30:39.694Z",
+      "bytes": 4898780
+    },
+    {
+      "key": "parallelogram",
+      "file": "parallelogram.json",
+      "model": "parallelogram.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0004773595892213,
+      "fitted_at": "2026-09-23T13:55:43.172Z",
+      "bytes": 199408
+    },
+    {
+      "key": "pig_weights",
+      "file": "pig_weights.json",
+      "model": "pig_weights.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "gam": [
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3,
+            -3
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.004003833590201,
+      "fitted_at": "2026-09-23T13:57:18.149Z",
+      "bytes": 1022009
+    },
+    {
+      "key": "pumps",
+      "file": "pumps.json",
+      "model": "pumps.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 1,
+          "beta": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0017226100514403,
+      "fitted_at": "2026-09-19T06:40:17.811Z",
+      "bytes": 390304
+    },
+    {
+      "key": "rats",
+      "file": "rats.json",
+      "model": "rats.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": [
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250,
+            250
+          ],
+          "alpha.c": 150,
+          "alpha.tau": 1,
+          "beta": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "beta.c": 10,
+          "beta.tau": 1,
+          "tau.c": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0040034083760374,
+      "fitted_at": "2026-09-19T06:41:24.207Z",
+      "bytes": 1504846
+    },
+    {
+      "key": "ring",
+      "file": "ring.json",
+      "model": "ring.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "x": 0.6,
+          "y": 0.6
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.0001231548242007,
+      "fitted_at": "2026-09-23T14:05:03.329Z",
+      "bytes": 198496
+    },
+    {
+      "key": "salm",
+      "file": "salm.json",
+      "model": "salm.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 0,
+          "beta": 0,
+          "gamma": 0,
+          "tau": 0.1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0022797112000423,
+      "fitted_at": "2026-09-19T06:48:15.047Z",
+      "bytes": 593578
+    },
+    {
+      "key": "seeds",
+      "file": "seeds.json",
+      "model": "seeds.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha0": 0,
+          "alpha1": 0,
+          "alpha12": 0,
+          "alpha2": 0,
+          "tau": 10
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.003584130200533,
+      "fitted_at": "2026-09-19T06:53:22.395Z",
+      "bytes": 688260
+    },
+    {
+      "key": "square_minus_circle",
+      "file": "square_minus_circle.json",
+      "model": "square_minus_circle.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "x": 0.99,
+          "y": 0.99
+        }
+      },
+      "converged": false,
+      "rhat_max": 1.1826638420944522,
+      "fitted_at": "2026-09-23T14:06:38.029Z",
+      "bytes": 193036
+    },
+    {
+      "key": "stacks",
+      "file": "stacks.json",
+      "model": "stacks.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "beta": [
+            0,
+            0,
+            0
+          ],
+          "beta0": 10,
+          "tau": 0.1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.000430714982517,
+      "fitted_at": "2026-09-19T06:56:07.060Z",
+      "bytes": 376711
+    },
+    {
+      "key": "stagnant",
+      "file": "stagnant.json",
+      "model": "stagnant.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "alpha": 0.2,
+          "beta": [
+            -0.45,
+            -1
+          ],
+          "tau": 5
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0030236504084016,
+      "fitted_at": "2026-09-19T09:29:49.962Z",
+      "bytes": 294021
+    },
+    {
+      "key": "surgical_realistic",
+      "file": "surgical_realistic.json",
+      "model": "surgical_realistic.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "b": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "mu": 0,
+          "tau": 1
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0013112480252029,
+      "fitted_at": "2026-09-19T06:57:26.452Z",
+      "bytes": 452527
+    },
+    {
+      "key": "surgical_simple",
+      "file": "surgical_simple.json",
+      "model": "surgical_simple.jl",
+      "backend": {
+        "id": "juliabugs",
+        "version": "1.12.6"
+      },
+      "sampler": {
+        "algorithm": "NUTS",
+        "draws": 1000,
+        "warmup": 1000,
+        "chains": 2,
+        "adapt_delta": 0.8,
+        "thin": 10,
+        "parallel": "serial",
+        "initial_params": {
+          "p": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ]
+        }
+      },
+      "converged": true,
+      "rhat_max": 1.0029958033595656,
+      "fitted_at": "2026-09-19T06:58:40.774Z",
+      "bytes": 387318
+    }
+  ]
+}
